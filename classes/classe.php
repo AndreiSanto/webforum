@@ -148,4 +148,8 @@ class caixaEmail
     {
         return $this->idCaixa;
     }
+    public function getData()
+    {
+        return $this->data;
+    }
 }
