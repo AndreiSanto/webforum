@@ -13,6 +13,7 @@ class UsuarioDao
     }
     public function inserirUsuario(Usuario $usuario)
     {
+
         $sql = $this->con->prepare("insert into usuario (nome,email,login,senha) values(:nom,:em,:log,:se)");
         $sql->bindValue(':nom', $usuario->getNome());
         $sql->bindValue(':em', $usuario->getEmail());

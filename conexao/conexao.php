@@ -3,7 +3,7 @@
 class Conexao
 {
     private $servidor_mysql = 'localhost';
-    private $nome_banco = 'webforum';
+    private $nome_banco = 'test';
     private $usuario = 'root';
     private $senha = '';
     private $con;
